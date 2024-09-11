@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    color: #1d3557;
+    line-height: 25px;
+}
+
+
+img{
+    width: 100px;
+}
+
+.hero{
+  color: #ffffff;
+  height: 400px;
+  background-image: url(Images/BS.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;  
+}
+
+
+h3{
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+#title{
+    background-color: #1d3557;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    margin-top: 80px;
+}
+#intro{
+    background: #457b9d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 800px;
+    line-height: 35px;
+}
+#images{
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#activity img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#activity{
+    width: 250px;
+    font-weight: 500;
+}
+
+#activities{
+    background-color: #f1faee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
